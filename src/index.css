@@ -2,7 +2,26 @@
   min-height: 100vh;
   height: 100vh;
   margin-left: 60%;
+  position: fixed;
+}
+
+.button {
+  position: fixed;
 }
 
 .bottle_div {
+}
+
+body {
+  min-height: 250vh;
+}
+
+/* Pour Firefox */
+* {
+  scrollbar-width: none; /* Cacher la largeur de la barre de défilement */
+}
+
+/* Pour Chrome, Safari et Opera */
+*::-webkit-scrollbar {
+  width: 0px; /* Largeur de la barre de défilement à 0 pixels */
 }
